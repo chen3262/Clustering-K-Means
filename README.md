@@ -28,6 +28,13 @@ conda install -c ambermd pytraj
 pip install -i https://pypi.anaconda.org/ambermd/simple pytraj
 ```
 
+## To use the notebook
+```ruby
+cd "path to Clustering-K-Means folder"
+
+jupyter notebook
+```
+
 ## License
 
 Copyright (C) 2019 Si-Han Chen chen.3262@osu.edu
