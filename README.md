@@ -7,7 +7,7 @@ Clustering protein conformations using different RMSD inputs:
 
 ```Clustering-K-Means-RMSD-mix.ipynb``` clusters conformations using both the above RMSD terms, with the RMSD of phi and sin angles multiplied by 200. A sample clustering result is shown below:
 
-<img src ="https://github.com/chen3262/Clustering-K-Means/blob/master/K-means.png" width="700">
+<img src ="https://github.com/chen3262/Clustering-K-Means/blob/master/K-means.png" width="400">
 
 ## Requirements
 python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```
