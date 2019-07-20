@@ -1,11 +1,13 @@
 # Clustering-K-Means
-Clustering protein conformations using different RMSD inputs
-<img src ="https://github.com/chen3262/Plot_Sec_Struc/blob/master/sec_struct_horizontal.png" width="1300">
+Clustering protein conformations using different RMSD inputs:
+```Clustering-K-Means-RMSD-CA.ipynb``` clusters conformations using RMSD of Cartesian coordinates of alpha-C atoms
+```Clustering-K-Means-RMSD-Rihedrals.ipynb``` clusters conformations using RMSD of phi and sin angles
+```Clustering-K-Means-RMSD-mix.ipynb``` clusters conformations using both the above RMSD terms, with the RMSD of phi and sin angles multiplied by 200. A sample clustering result is shown below:
 
-```Plot_sec_struct.py``` is Python script to process and plot the secondary strcutures of a protein, which requires inputs files from VMD Timeline > Cal. Sec. Struc ( [tutorial](https://www.ks.uiuc.edu/Training/Tutorials/science/timeline/tutorial_timeline-html/)).
+<img src ="https://github.com/chen3262/Clustering-K-Means/blob/master/K-means.png" width="1000">
 
 ## Requirements
-python modules: ```numpy```, ```pandas```, ```matplotlib```, ```seaborn```
+python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```sklearn```
 
 To check if you have these modules installed, you can either do
 ```bash
